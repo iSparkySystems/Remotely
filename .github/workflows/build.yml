@@ -23,8 +23,8 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
-      serverUrl: https://remote.isparky.co.za
-        description: https://remote.isparky.co.za    
+      serverUrl:
+        description: 'Server URL'
         required: true
       rid:
         description: 'Server Runtime Identifier'     
